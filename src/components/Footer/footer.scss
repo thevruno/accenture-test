@@ -1,0 +1,51 @@
+@import '../../index.scss';
+
+footer{
+    background-color: $COLOR_PURPLE;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    @media (max-width: 768px) {
+        height: auto;
+
+    }
+
+    // reset list style
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+    //
+    nav{
+        max-width: 658px;
+        width: 100%;
+        @media (max-width: 768px) {
+            flex-direction: column;
+        }
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px;
+        padding-top: 13px;
+        padding-bottom: 12px;
+        @media (max-width: 768px) {
+            flex-direction: column;
+        }
+        li{
+            @media (max-width: 768px) {
+                margin-bottom: 15px;
+            }
+            a{  
+                text-decoration: none;
+                color: $COLOR_WHITE;
+                font-size: 16px;
+                line-height: 19px;
+            }
+        }
+    }
+    
+}

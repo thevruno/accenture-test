@@ -1,0 +1,32 @@
+@import './index.scss';
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Chivo', sans-serif;
+  background-color: $COLOR_WHITE;
+}
+
+.App-content {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: $COLOR_WHITE;
+  padding: 0 40px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 0 14px;
+  }
+
+  .App-content__products{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 866px;
+    height: 100%;
+  }
+}
+
