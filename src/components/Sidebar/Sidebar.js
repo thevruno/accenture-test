@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React from 'react'
 import './sidebar.scss';
 
 
@@ -21,9 +21,9 @@ export default function Sidebar ({category}) {
                 </h3>
                 <nav>
                     <ul>
-                        <li><a href="#">Zapatillas</a></li>
-                        <li><a href="#">Zapatos</a></li>
-                        <li><a href="#">Botas</a></li>
+                        <li><a href="/">Zapatillas</a></li>
+                        <li><a href="/">Zapatos</a></li>
+                        <li><a href="/">Botas</a></li>
                     </ul>
                 </nav>
             </div>
@@ -34,9 +34,9 @@ export default function Sidebar ({category}) {
                 </h3>
                 <nav>
                     <ul>
-                        <li><a href="#">36</a></li>
-                        <li><a href="#">40</a></li>
-                        <li><a href="#">43</a></li>
+                        <li><a href="/">36</a></li>
+                        <li><a href="/">40</a></li>
+                        <li><a href="/">43</a></li>
                     </ul>
                 </nav>
             </div>
@@ -47,9 +47,9 @@ export default function Sidebar ({category}) {
                 </h3>
                 <nav>
                     <ul>
-                        <li><a href="#">Amarillo</a></li>
-                        <li><a href="#">Negro</a></li>
-                        <li><a href="#">Blanco</a></li>
+                        <li><a href="/">Amarillo</a></li>
+                        <li><a href="/">Negro</a></li>
+                        <li><a href="/">Blanco</a></li>
                     </ul>
                 </nav>
             </div>

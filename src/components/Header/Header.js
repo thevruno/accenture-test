@@ -22,13 +22,13 @@ export default function Header() {
           <div className="header-top__icons">
             <ul>
               <li>
-                <a href="#"><img src="/images/icons/busqueda.svg" alt="Buscar" /></a>
+                <a href="/"><img src="/images/icons/busqueda.svg" alt="Buscar" /></a>
               </li>
               <li>
-                <a href="#"><img src="/images/icons/usuario.svg" alt="Usuario" /></a>
+                <a href="/"><img src="/images/icons/usuario.svg" alt="Usuario" /></a>
               </li>
               <li>
-                <a href="#"><img src="/images/icons/carrito.svg" alt="Carrito" /></a>
+                <a href="/"><img src="/images/icons/carrito.svg" alt="Carrito" /></a>
               </li>
             </ul>
           </div>
@@ -36,19 +36,19 @@ export default function Header() {
         <nav>
             <ul>
                 <li>
-                    <a href="#"><strong>SALE</strong></a>
+                    <a href="/"><strong>SALE</strong></a>
                 </li>
                 <li>
-                    <a href="#">e-shop</a>
+                    <a href="/">e-shop</a>
                 </li>
                 <li>
-                    <a href="#">lookbook</a>
+                    <a href="/">lookbook</a>
                 </li>
                 <li>
-                    <a href="#">campaña</a>
+                    <a href="/">campaña</a>
                 </li>
                 <li>
-                    <a href="#">locales</a>
+                    <a href="/">locales</a>
                 </li>
             </ul>
         </nav>
@@ -58,19 +58,19 @@ export default function Header() {
         <nav>
               <ul>
                   <li>
-                      <a href="#"><strong>SALE</strong></a>
+                      <a href="/"><strong>SALE</strong></a>
                   </li>
                   <li>
-                      <a href="#">e-shop</a>
+                      <a href="/">e-shop</a>
                   </li>
                   <li>
-                      <a href="#">lookbook</a>
+                      <a href="/">lookbook</a>
                   </li>
                   <li>
-                      <a href="#">campaña</a>
+                      <a href="/">campaña</a>
                   </li>
                   <li>
-                      <a href="#">locales</a>
+                      <a href="/">locales</a>
                   </li>
               </ul>
           </nav>
