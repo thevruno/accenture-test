@@ -1,10 +1,9 @@
-import React from 'react'
 import './sidebar.scss';
+import apiJSON from '../../services/productService.json'
 
 
 
-export default function Sidebar ({category}) {
-
+export default function Sidebar () {
 
     return (
         <>
@@ -21,9 +20,9 @@ export default function Sidebar ({category}) {
                 </h3>
                 <nav>
                     <ul>
-                        <li><a href="/">Zapatillas</a></li>
-                        <li><a href="/">Zapatos</a></li>
-                        <li><a href="/">Botas</a></li>
+                        {
+                            apiJSON.map( categoryData => <li><a href="/">{categoryData.category}</a></li> )
+                        }
                     </ul>
                 </nav>
             </div>
@@ -34,9 +33,9 @@ export default function Sidebar ({category}) {
                 </h3>
                 <nav>
                     <ul>
-                        <li><a href="/">36</a></li>
-                        <li><a href="/">40</a></li>
-                        <li><a href="/">43</a></li>
+                        {
+                            apiJSON.map( categoryData => <li><a href="/">{categoryData.size}</a></li> )
+                        }
                     </ul>
                 </nav>
             </div>
@@ -47,9 +46,9 @@ export default function Sidebar ({category}) {
                 </h3>
                 <nav>
                     <ul>
-                        <li><a href="/">Amarillo</a></li>
-                        <li><a href="/">Negro</a></li>
-                        <li><a href="/">Blanco</a></li>
+                        {
+                            apiJSON.map( categoryData => <li><a href="/">{categoryData.color}</a></li> )
+                        }
                     </ul>
                 </nav>
             </div>

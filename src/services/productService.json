@@ -1,0 +1,39 @@
+[
+  {
+    "id": "1",
+    "image": "https://api.lorem.space/image/shoes?w=260&h=190",
+    "color": "Amarillo",
+    "price": 5000,
+    "size": 36,
+    "title": "Zapatilla XTD-1",
+    "category": "Zapatilla"
+  },
+  {
+    "id": "2",
+    "image": "https://api.lorem.space/image/shoes?w=260&h=190",
+    "color": "",
+    "price": 4000,
+    "size": 38,
+    "title": "Zapato XT-5",
+    "category": "Zapato"
+  },
+    
+  {
+    "id": "3",
+    "image": "https://api.lorem.space/image/shoes?w=260&h=190",
+    "color": "Negro",
+    "price": 4000,
+    "size": 40,
+    "title": "Bota Militar T2000",
+    "category": "Botas"
+  },
+  {
+    "id": "4",
+    "image": "https://api.lorem.space/image/shoes?w=260&h=190",
+    "color": "Blanco",
+    "price": 4500,
+    "size": 43,
+    "title": "Sandalia TTPH",
+    "category": "Sandalia"
+  }
+]

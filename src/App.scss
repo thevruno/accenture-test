@@ -9,6 +9,10 @@ body {
   font-family: 'Chivo', sans-serif;
   background-color: $COLOR_WHITE;
 }
+ul{
+  list-style: none;
+  padding: 0;
+}
 
 .App-content {
   display: flex;

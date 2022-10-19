@@ -10,13 +10,6 @@ header{
         top: 0;
     }
 
-    // reset list style
-    ul{
-        list-style: none;
-        padding: 0;
-    }
-    // 
-
     .header-top{
         display: flex;
         align-items: center;
@@ -86,6 +79,9 @@ header{
                 align-items: center;
                 justify-content: space-between;
                 margin: 0;
+                img{
+                    height: 23.72px;
+                }
                 :not(:last-child){
                     @media (max-width: 768px){
                         display: none;

@@ -24,6 +24,9 @@
             border: 0;
             border-bottom: 1px $COLOR_BLACK solid;
             margin: 8.5px 0 15.5px 0;
+            @media (max-width: 768px) {
+                margin-bottom: 28.5px;
+            }
         }
         h2{
             padding: 0;

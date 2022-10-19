@@ -1,46 +1,39 @@
-import React, {useEffect, useState} from 'react'
 import './App.scss'
 import Header from './components/Header/Header'
 import Sidebar from './components/Sidebar/Sidebar'
 import Product from './components/Product/Product'
 import Footer from './components/Footer/Footer'
-import getProducts from './services/getProducts'
+import apiJSON from './services/productService.json'
 
-function App() {
+export default function App() {
 
-  const [products, setProducts] = useState([])
-
-  useEffect(function () {
-    getProducts().then(products => setProducts(products))
-  }, [])
 
   return (
     <div className="App">
+
       <Header />
 
       <section className="App-content">
-        
-        <Sidebar category={products} />
-         
 
+        <Sidebar />
+         
         <div className="App-content__products">
 
           {
-            products.map( singleProducto => <Product 
-              key={singleProducto.id}
-              productImg={singleProducto.images[0]} 
-              productPrice={singleProducto.price}
-              productTitle={singleProducto.title}
-              /> 
-            )
+            apiJSON.map( dataProduct => <Product 
+              key={dataProduct.id}
+              productImg={dataProduct.image} 
+              productPrice={dataProduct.price}
+              productTitle={dataProduct.title}
+              /> )
           }
 
         </div>
+
       </section>
 
       <Footer />
+
     </div>
   );
 }
-
-export default App;
